@@ -5,7 +5,7 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { logo } from "../assests/logo.png";
+import logo  from "../assests/logo.png";
 function NavBar() {
   return (
     <div>
@@ -18,10 +18,10 @@ function NavBar() {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <img
-              src="../assests/logo.png"
+              src={logo}
               alt="logo"
               className="px-5"
-              style={{ width: 50, height: 50, objectFit: "cover" }}
+              style={{ width: "50", height: 50, objectFit: "cover" }}
             />
             <div className="d-flex px-5 gap-5 justify-content-center w-100">
               <Nav.Link href="#action1">Home</Nav.Link>
