@@ -9,7 +9,11 @@ import { logo } from "../assests/logo.png";
 function NavBar() {
   return (
     <div>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar
+        expand="lg"
+        className="bg-body-tertiary"
+        
+      >
         <Container fluid>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
