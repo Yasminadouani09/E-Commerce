@@ -5,6 +5,7 @@ import Home from '../Pages/Home';
 import Carrousel from '../Components/Carrousel';
 import AboutUs from '../Components/AboutUs';
 import Realeas from '../Components/Realeas';
+import LastVideos from '../Components/LastVideos';
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <NavBar/>
       <Carrousel />
       <AboutUs />
-      <Realeas/>
+      <Realeas />
+      <LastVideos/>
     </div>
   );
 }
