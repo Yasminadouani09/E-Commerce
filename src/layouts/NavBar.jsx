@@ -7,12 +7,21 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo  from "../assests/logo.png";
 function NavBar() {
+    
+
+
+   
+
+
+
+
   return (
     <div>
       <Navbar
         expand="lg"
-        className="bg-body-tertiary"
-        
+        fixed="top"
+        style={{ backgroundColor: "black", opacity: "0.8 " }}
+        className="text-white"
       >
         <Container fluid>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -24,7 +33,12 @@ function NavBar() {
               style={{ width: "50", height: 50, objectFit: "cover" }}
             />
             <div className="d-flex px-5 gap-5 justify-content-center w-100">
-              <Nav.Link href="#action1">Home</Nav.Link>
+              <Nav.Link
+                href="#action1"
+               
+              >
+                Home
+              </Nav.Link>
 
               <Nav.Link href="#action2">Info</Nav.Link>
 
